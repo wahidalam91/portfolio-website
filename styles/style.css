@@ -216,3 +216,66 @@ main{
     text-align: left;
 }
 
+/* Resume Section */
+
+.resume .section-title{
+    margin-bottom: 110px;
+}
+
+.edu-exp{
+    display: flex;
+    gap: 71px;
+    justify-content: center;
+}
+
+.education-title,
+.experience-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.education-container,
+.experience-container{
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.certificate-subject{
+    margin-top: 30.5px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.institute{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 29.5px;
+}
+
+.resume-button{
+    text-align: center;
+}
+
