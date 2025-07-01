@@ -345,9 +345,13 @@ textarea{
      width: 100%;
 }
 
-.cards-area{
+.cards-area, .edu-exp{
     flex-direction: column;
     padding: 50px;
+}
+
+.resume .section-title{
+    margin-bottom: 20px;
 }
 }
 
@@ -357,11 +361,15 @@ textarea{
      width: 100%;
 }
 
-.cards-area{
+.cards-area, .edu-exp{
     flex-wrap: wrap;
     padding: 35px;
 }
 .card-content{
     width: 37%;
+}
+
+.resume .section-title{
+    margin-bottom: 20px;
 }
 }
