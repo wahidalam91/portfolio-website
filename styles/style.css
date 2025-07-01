@@ -341,35 +341,61 @@ textarea{
 }
 
 @media screen and (max-width: 576px) {
+
+    .about{
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    .items-container{
+    flex-direction: column;
+    }
+
+ 
     .what-i-do{
      width: 100%;
-}
+    }
 
-.cards-area, .edu-exp{
+    .cards-area,
+    .edu-exp{
     flex-direction: column;
     padding: 50px;
-}
+    }
 
-.resume .section-title{
+    .resume .section-title{
     margin-bottom: 20px;
-}
+    }
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .about{
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+
+    }
+
+    .items-container{
+    flex-wrap: wrap;
+    }
+    
     .what-i-do{
      width: 100%;
-}
+    }
 
-.cards-area, .edu-exp{
+    .cards-area, .edu-exp{
     flex-wrap: wrap;
     padding: 35px;
-}
-.card-content{
+    }
+    
+    .card-content{
     width: 37%;
-}
+    }
 
-.resume .section-title{
+    .resume .section-title{
     margin-bottom: 20px;
-}
+    }
 }
