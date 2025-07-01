@@ -341,6 +341,64 @@ textarea{
 }
 
 @media screen and (max-width: 576px) {
+    .section-title{
+        font-size: 35px;
+    }
+
+    header{
+    background: none;
+    }
+
+/* Nav Styles */
+    nav{
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .nav-title{
+    font-size: 45px;
+    }
+
+    nav ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+
+    nav ul li{
+    margin-right: 0px;  
+    }
+
+
+    .banner{
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    }
+
+    .banner-content{
+    max-width: 100%;
+    }
+
+    .banner-greetings{
+    font-size: 35px;
+    margin-bottom: 0px; 
+    }
+
+    .banner-title{
+    font-size: 35px;
+    margin-bottom: 5px;
+    }
+
+    .banner-description{
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+    .banner-profile-pic{
+    width: 90%;
+    height: auto;
+    }
 
     .about{
         margin: 0;
@@ -352,20 +410,25 @@ textarea{
     flex-direction: column;
     }
 
- 
     .what-i-do{
-     width: 100%;
+    margin: 300px 0;
+    padding: 20px;
+    max-width: 100%;
     }
 
     .cards-area,
     .edu-exp{
-    flex-direction: column;
-    padding: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
     }
 
+    
     .resume .section-title{
     margin-bottom: 20px;
+
     }
+
+
 
     footer{
         width: 100%;
@@ -419,16 +482,70 @@ textarea{
     footer .btn-primary{
         margin: 5px 86px;
     }
+    
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+    background: none;
+    }
+
+/* Nav Styles */
+    nav{
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .nav-title{
+    font-size: 45px;
+    }
+
+    nav ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+
+    nav ul li{
+    margin-right: 0px;  
+    }
+
+
+    .banner{
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    }
+
+    .banner-content{
+    max-width: 100%;
+    }
+
+    .banner-greetings{
+    font-size: 35px;
+    margin-bottom: 0px; 
+    }
+
+    .banner-title{
+    font-size: 65px;
+    margin-bottom: 5px;
+    }
+
+    .banner-description{
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+    .banner-profile-pic{
+    width: 90%;
+    height: auto;
+    }
 
     .about{
-        margin: 0;
+        margin-bottom: 0;
         padding: 20px;
         background-color: transparent;
-
     }
 
     .items-container{
@@ -436,7 +553,8 @@ textarea{
     }
     
     .what-i-do{
-     width: 100%;
+    margin-top: 50px;
+    width: 100%;
     }
 
     .cards-area, .edu-exp{
@@ -453,7 +571,7 @@ textarea{
     }
 
     footer{
-        width: 100%;
+        max-width: 100%;
         margin: 0;
         padding: 0;
         background-color: rgb(255, 248, 243);
