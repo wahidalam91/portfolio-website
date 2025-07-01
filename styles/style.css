@@ -334,3 +334,34 @@ textarea{
 
     margin-bottom: 24px;
 }
+
+/* Responsive */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .what-i-do{
+     width: 100%;
+}
+
+.cards-area{
+    flex-direction: column;
+    padding: 50px;
+}
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .what-i-do{
+     width: 100%;
+}
+
+.cards-area{
+    flex-wrap: wrap;
+    padding: 35px;
+}
+.card-content{
+    width: 37%;
+}
+}
